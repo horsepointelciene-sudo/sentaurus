@@ -1,0 +1,195 @@
+{
+  "plots": [
+    {
+      "file": "spatial_20261022T125804_967539Z/tdr_00_cutline.png",
+      "caption": "noppl1_n5_des.tdr：沿记录的固定 X 截线；不是完整二维场图。"
+    },
+    {
+      "file": "spatial_20261022T125804_967539Z/tdr_01_cutline.png",
+      "caption": "ppl1_n5_des.tdr：沿记录的固定 X 截线；不是完整二维场图。"
+    }
+  ],
+  "inputs": [
+    {
+      "node": 5,
+      "sha256": "06781be6f140b0ece245b89116da15c138f82ba62ef5851eabcafa7175668074",
+      "bytes": 7420497,
+      "remote_path": "<REMOTE_WORKSPACE>/4E17SPICE_dark_flowcheck_20261019/noppl1_n5_des.tdr"
+    },
+    {
+      "node": 5,
+      "sha256": "c305935ab76e2eecf3638ac7bdd5c494a0f2c436e9991727ed6769a019f26891",
+      "bytes": 7495317,
+      "remote_path": "<REMOTE_WORKSPACE>/4E17SPICE_dark_flowcheck_20261019/ppl1_n5_des.tdr"
+    }
+  ],
+  "geometries": [
+    {
+      "reason": "whole_geometry_midline_Ref_channel_empty",
+      "x_min_um": "0",
+      "x_max_um": "4",
+      "y_min_um": "-3",
+      "y_max_um": "365.899993896",
+      "cut_x_um": "2.0",
+      "tdr_state_index": "1",
+      "source": "noppl1_n5_des.tdr",
+      "sha256": "06781be6f140b0ece245b89116da15c138f82ba62ef5851eabcafa7175668074"
+    },
+    {
+      "reason": "whole_geometry_midline_Ref_channel_empty",
+      "x_min_um": "0",
+      "x_max_um": "4",
+      "y_min_um": "-3",
+      "y_max_um": "365.899993896",
+      "cut_x_um": "2.0",
+      "tdr_state_index": "1",
+      "source": "ppl1_n5_des.tdr",
+      "sha256": "c305935ab76e2eecf3638ac7bdd5c494a0f2c436e9991727ed6769a019f26891"
+    }
+  ],
+  "extrema": [
+    {
+      "source": "noppl1_n5_des.tdr",
+      "values": [
+        {
+          "field": "ElectrostaticPotential",
+          "min": "-1.51863251192",
+          "max": "15.2264516189",
+          "max_x_um": "1.68318462372",
+          "max_y_um": "0.131462678313"
+        },
+        {
+          "field": "Abs(ElectricField-V)",
+          "min": "0",
+          "max": "3387302.47096",
+          "max_x_um": "2.59375",
+          "max_y_um": "0.115753591061"
+        },
+        {
+          "field": "Abs(TotalCurrentDensity-V)",
+          "min": "0",
+          "max": "1802922.62187",
+          "max_x_um": "1.384765625",
+          "max_y_um": "0.512475550175"
+        },
+        {
+          "field": "TotalCurrentDensity-X",
+          "min": "-203563.77557",
+          "max": "186352.293568",
+          "max_x_um": "2.5713288784",
+          "max_y_um": "0.923493146896"
+        },
+        {
+          "field": "TotalCurrentDensity-Y",
+          "min": "-1799022.74455",
+          "max": "1557.26932548",
+          "max_x_um": "1.55769300461",
+          "max_y_um": "1.00078845024"
+        },
+        {
+          "field": "eDensity",
+          "min": "4.49448429397e-35",
+          "max": "8.92814572141e+19",
+          "max_x_um": "2.64999938011",
+          "max_y_um": "-2.08616182107e-08"
+        },
+        {
+          "field": "hDensity",
+          "min": "3.81209857179e-41",
+          "max": "7.25574806399e+18",
+          "max_x_um": "0.375",
+          "max_y_um": "0.0396423153579"
+        }
+      ]
+    },
+    {
+      "source": "ppl1_n5_des.tdr",
+      "values": [
+        {
+          "field": "ElectrostaticPotential",
+          "min": "-1.51667477942",
+          "max": "15.2264516189",
+          "max_x_um": "2.0625",
+          "max_y_um": "0.949554443359"
+        },
+        {
+          "field": "Abs(ElectricField-V)",
+          "min": "0",
+          "max": "3369789.02285",
+          "max_x_um": "2.59375",
+          "max_y_um": "0.114789888263"
+        },
+        {
+          "field": "Abs(TotalCurrentDensity-V)",
+          "min": "0",
+          "max": "250067.89084",
+          "max_x_um": "1.380859375",
+          "max_y_um": "0.444927960634"
+        },
+        {
+          "field": "TotalCurrentDensity-X",
+          "min": "-51245.6594909",
+          "max": "48052.1482236",
+          "max_x_um": "2.46484375",
+          "max_y_um": "0.990356683731"
+        },
+        {
+          "field": "TotalCurrentDensity-Y",
+          "min": "-249490.934053",
+          "max": "29.0325757989",
+          "max_x_um": "1.21875",
+          "max_y_um": "0.27605894208"
+        },
+        {
+          "field": "eDensity",
+          "min": "1.68046538616e-36",
+          "max": "1.29067977957e+20",
+          "max_x_um": "1.35577392578",
+          "max_y_um": "-2.08616182107e-08"
+        },
+        {
+          "field": "hDensity",
+          "min": "1.44411211434e-40",
+          "max": "6.58818506553e+18",
+          "max_x_um": "0.375",
+          "max_y_um": "0.107189923525"
+        }
+      ]
+    }
+  ],
+  "shared_field_ranges": {
+    "ElectrostaticPotential": [
+      -1.51863251192,
+      15.2264516189
+    ],
+    "Abs(ElectricField-V)": [
+      0.0,
+      3387302.47096
+    ],
+    "Abs(TotalCurrentDensity-V)": [
+      0.0,
+      1802922.62187
+    ],
+    "TotalCurrentDensity-X": [
+      -203563.77557,
+      186352.293568
+    ],
+    "TotalCurrentDensity-Y": [
+      -1799022.74455,
+      1557.26932548
+    ],
+    "eDensity": [
+      1.68046538616e-36,
+      1.29067977957e+20
+    ],
+    "hDensity": [
+      3.81209857179e-41,
+      7.25574806399e+18
+    ]
+  },
+  "warnings": [],
+  "source_unchanged": true,
+  "geometry_policy": "midpoint of Ref_channel X extent; fallback explicitly labelled whole_geometry_midline",
+  "state_limit": "TDR stored state index recorded; no invented intermediate bias snapshots",
+  "graphics_blocker": "Bundled Xvfb requires unavailable GLIBC_2.26/2.27; no system Xvfb"
+}

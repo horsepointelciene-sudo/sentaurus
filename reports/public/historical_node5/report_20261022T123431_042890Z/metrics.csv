@@ -1,0 +1,2 @@
+node,int,rho_c_drain,points,voltage_max_V,Id_10V_A,PPL_fraction_10V,max_abs_KCL_residual_A
+5,0,1e-4,41,10.0,10.1630004406181,0.002059660392973379,1.7078398961700714e-07

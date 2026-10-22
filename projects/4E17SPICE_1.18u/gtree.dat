@@ -1,0 +1,35 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vcurrent, saved by gsub0
+
+# --- simulation flow
+sdevice sdevice "" {}
+sdevice AF "241572" {241572} V
+sdevice Tamb "300" {300} V
+sdevice lambda "0.36" {0.36} V
+sdevice int "0" {0 5} R
+sdevice1 sdevice "" {}
+sdevice1 rho_c_drain "1e-4" {1e-4 1e-3 1e-2 1e-1} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default AF ""
+scenario default Tamb ""
+scenario default lambda ""
+scenario default int ""
+scenario default rho_c_drain ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {241572} {default} 0
+2 3 2 {300} {default} 0
+3 4 3 {0.36} {default} 0
+4 5 4 {0} {default} 0
+5 9 5 {} {default} 0
+6 15 9 {1e-4} {default} 0
+6 21 9 {1e-3} {default} 0
+6 27 9 {1e-2} {default} 0
+6 33 9 {1e-1} {default} 0
+4 6 4 {5} {default} 0
+5 10 6 {} {default} 0
+6 16 10 {1e-4} {default} 0
+6 23 10 {1e-3} {default} 0
+6 29 10 {1e-2} {default} 0
+6 35 10 {1e-1} {default} 0

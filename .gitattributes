@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.cmd text eol=lf
+*.dat text eol=lf
+*.png binary
+# Preserve exact report artifact bytes so published SHA-256 manifests remain valid.
+reports/public/** -text

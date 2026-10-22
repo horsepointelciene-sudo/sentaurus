@@ -1,0 +1,41 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>TCAD report</title><style>body{font:16px/1.7 system-ui;max-width:1180px;margin:32px auto;padding:0 24px;color:#172435}h2{margin-top:36px;border-bottom:1px solid #ddd}img{max-width:100%;height:auto}.row{display:flex;border-bottom:1px solid #ddd;overflow-wrap:anywhere}.row span{flex:1;padding:8px;min-width:0}figure{margin:24px 0}figcaption{color:#46566b}p{overflow-wrap:anywhere}</style><h1>TCAD 运行与结果报告</h1>
+<p>运行编号：`sdevice1_20261022T113935Z_d2b4223f`</p>
+<p>更新时间：2026-10-22T13:19:31.024628+00:00。此页面是静态快照，需再次 refresh 才会更新。</p>
+<h2>问题与修改</h2>
+<p>本轮记录指定节点的已有输入、运行与结果；报告生成不修改物理模型、不提交新仿真。</p>
+<p>研究假设及授权修改范围见对应任务文件。</p>
+<h2>输入与环境</h2>
+<p>实际工程：`&lt;REMOTE_WORKSPACE&gt;/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project`</p>
+<p>输入提交：`未记录或不适用`。历史记录无提交时保留为空，以输入哈希为依据。</p>
+<p>任务：`未记录或不适用`；回收证据：`&lt;LOCAL_WORKSPACE&gt;\results\4E17SPICE_1.18u\sdevice1_20261022T113935Z_d2b4223f\collection_20261022T131856_183145Z`。</p>
+<h2>运行与监控</h2>
+<p>状态：**running**；连接：True。</p>
+<p>最近服务器监控：2026-10-22T13:02:01.368926Z；当前节点：15；阶段：drain_ramp；已接受仿真时间：177.5 s；漏压：7.75 V。</p>
+<p>上述时间为仿真时间，不是运行耗时；不预测剩余时间。</p>
+<p>监控提示：`[]`</p>
+<div class="row"><span>节点</span><span>状态</span><span>实际求解器版本</span></div>
+<div class="row"><span>15</span><span>running</span><span>W-2024.09-SP1</span></div>
+<div class="row"><span>16</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>21</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>23</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>27</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>29</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>33</span><span>not_started</span><span>未启动或未识别</span></div>
+<div class="row"><span>35</span><span>not_started</span><span>未启动或未识别</span></div>
+<h2>曲线与指标</h2>
+<div class="row"><span>节点</span><span>int</span><span>rho_c_drain</span><span>点数</span><span>最大 Vds/V</span><span>Id(10V)/A</span><span>最大 KCL 残差/A</span></div>
+<p>尚无通过校验的完整漏压扫描曲线；当前阶段不生成器件性能结论。</p>
+<p>保留原始有符号电流，不再次乘 AreaFactor。KCL 残差为电源与两个器件支路电流之和。10 V 指标仅使用实际到达的点，不外推。</p>
+<h2>图表</h2>
+<h2>空间分析</h2>
+<p>状态：no_eligible_TDR_yet。</p>
+<p>尚未完成空间图验证；不能仅凭曲线推断高场、热或电流拥挤位置。</p>
+<p>空间极值、截线坐标和状态依据：尚未生成空间导出目录；数值清单及 CSV 与截线图存放在同一目录。</p>
+<h2>结论、限制与下一步</h2>
+<p>- 求解完成、数据导出、出图和报告完整性分别记录。失败、未运行与缺失数据分别保留。</p>
+<p>- 单次求解收敛不等于物理模型或网格精度已验证。</p>
+<p>- 当前 Id–Vd 数据不用于推导 Vth、击穿电压或热失控结论。</p>
+<p>- 下一步仅提出建议：补齐缺失证据，核对曲线与空间分布；新计算需另行明确要求。</p>
+<h2>证据与异常</h2>
+<p>输入哈希、原始结果哈希、指标算法及 TDR 清单见 analysis.json；指标见 metrics.csv。</p>
+<p>异常数：0。</p></html>

@@ -1,0 +1,82 @@
+{
+  "public_copy": true,
+  "original_evidence_retained_locally": true,
+  "files": {
+    "analysis.json": {
+      "sha256": "cdc7daa758f4db90faa0d3bf8ce47d35470cac6f7bafb4719a6c290652c3135c",
+      "bytes": 8432
+    },
+    "metrics.csv": {
+      "sha256": "194e7716a02a20640c02e3dd268f237f57fc11dccd3ed258033b2a9cd9927b8e",
+      "bytes": 171
+    },
+    "report.html": {
+      "sha256": "b86845e0a866f96b34038da16dc3433491a01d6cc1c2de521a090283ca405239",
+      "bytes": 4041
+    },
+    "REPORT.md": {
+      "sha256": "5fba24449fc6f292028b7ee8af3315cc8779887fb6195ee335fa4b9be93c3571",
+      "bytes": 2796
+    },
+    "data/dark_IdVd_n5_circuit.csv": {
+      "sha256": "479790e86aaf5dca05b06bd5b83b44a82e05d8b5beba05a8fc3e16ab2ad9e314",
+      "bytes": 5659
+    },
+    "figures/node5_currents.png": {
+      "sha256": "8cabd2c3db7484fb268bbcc4f890d2b7ba843f41b2e2a1658c8ca0b7c882f98e",
+      "bytes": 250275
+    },
+    "figures/node5_currents.svg": {
+      "sha256": "d005eae2f9c8e43e15e3f28a14e753b7cf84c013220163bbaaf1851b0ed189e4",
+      "bytes": 30983
+    },
+    "spatial_20261022T125804_967539Z/GUI_STEPS.md": {
+      "sha256": "98fd5feb95cf91ba4f91fec71ce8d96f85f1ce1b7fb8a99ff89b6a2da957c795",
+      "bytes": 1006
+    },
+    "spatial_20261022T125804_967539Z/spatial_manifest.json": {
+      "sha256": "6f416d94d768b340826789232db90a628492785b74b35f94f48b0dbe4c7445fd",
+      "bytes": 5699
+    },
+    "spatial_20261022T125804_967539Z/tdr_00_cutline.csv": {
+      "sha256": "b2c3c09cea8c6cf100267bb3cd78337cfb76642c45cfadaff61e21a09eca35ba",
+      "bytes": 59727
+    },
+    "spatial_20261022T125804_967539Z/tdr_00_cutline.png": {
+      "sha256": "c52116a24fe0fee93accef0559bb6785c8f1cb38b5609efda16e24c045fe6b07",
+      "bytes": 231444
+    },
+    "spatial_20261022T125804_967539Z/tdr_00_cutline.svg": {
+      "sha256": "bfd1ac3a3210b2d108fa0b9eaddae3595481a888f0433cba89b73a29d0b4715c",
+      "bytes": 47267
+    },
+    "spatial_20261022T125804_967539Z/tdr_00_extrema.csv": {
+      "sha256": "101d72a202e0955dd759c95dff1e28e515fad3e946c8ba1043ee09214307b977",
+      "bytes": 553
+    },
+    "spatial_20261022T125804_967539Z/tdr_00_geometry.csv": {
+      "sha256": "b75dd3a040ab6dd3d2f98870e02d31021dd0d2d6685e60dd0eae1a1145fbe959",
+      "bytes": 138
+    },
+    "spatial_20261022T125804_967539Z/tdr_01_cutline.csv": {
+      "sha256": "3d4ce05027f06249df253ad668993ffdf09295bab21ab602dae6a24862a436b7",
+      "bytes": 59593
+    },
+    "spatial_20261022T125804_967539Z/tdr_01_cutline.png": {
+      "sha256": "8d5a5f0012b5292bd4fa6d569f3c2d9ae5bc71f8f73a698b76fb50ffc189ca7d",
+      "bytes": 216243
+    },
+    "spatial_20261022T125804_967539Z/tdr_01_cutline.svg": {
+      "sha256": "69032961116af15073ae56b1208b4749fe36f2453167ca4f5d7b33dfbae0b67d",
+      "bytes": 44917
+    },
+    "spatial_20261022T125804_967539Z/tdr_01_extrema.csv": {
+      "sha256": "ab7aa94fbaeb453d63a74c8e6ce7ba60563b3035ca851025463a460821ed9642",
+      "bytes": 537
+    },
+    "spatial_20261022T125804_967539Z/tdr_01_geometry.csv": {
+      "sha256": "b75dd3a040ab6dd3d2f98870e02d31021dd0d2d6685e60dd0eae1a1145fbe959",
+      "bytes": 138
+    }
+  }
+}

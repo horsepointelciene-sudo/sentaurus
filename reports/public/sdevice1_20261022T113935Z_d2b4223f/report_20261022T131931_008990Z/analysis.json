@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "run_id": "sdevice1_20261022T113935Z_d2b4223f",
+  "created_utc": "2026-10-22T13:19:31.024628+00:00",
+  "source_commit": null,
+  "task_id": null,
+  "project": "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project",
+  "collection": "<LOCAL_WORKSPACE>\\results\\4E17SPICE_1.18u\\sdevice1_20261022T113935Z_d2b4223f\\collection_20261022T131856_183145Z",
+  "source_input_sha256": {
+    ".organization": "8a72878f9e4f26d6ac14885d972cf455d5391f41e7812b04de6ef5f2adc59a0f",
+    ".project": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "NOPPL.tdr": "96fa8c0f70bc225ae1ffdd7a77c6ec2db7e56246aae34166171b085d70f4798a",
+    "PPL.tdr": "fb73995b629bd507652353af646c134fc8b60fd01dfdceb7e1300df11d357cc3",
+    "SiC.par": "42a5946491fc65cca27391eaf0fadd1e416133aa9e30dd9a57d568e524174ae2",
+    "gtree.dat": "bb0cf3e9d7c44cb6306b88f054fa8b056dcf5e81381f81455cb6071084c20f68",
+    "gvars.dat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sdevice1_des.cmd": "b17d8a649761b7807a3c6071db5fa43ac35da023658ab537bb3d7d9484beba74",
+    "sdevice_des.cmd": "aca64f7fba6736ec179cff83421823c2de42661eb9d5ea3350cd3e9d535cc862"
+  },
+  "connection_ok": true,
+  "simulation_status": "running",
+  "snapshot": {
+    "cancel_requested": false,
+    "monitor": {
+      "age_seconds": 46.874232053756714,
+      "alerts": [],
+      "current_node": 15,
+      "free_bytes": 6964197175296,
+      "interval_seconds": 60,
+      "last_progress_epoch": 1792674121.328182,
+      "nodes": {
+        "15": "running",
+        "16": "not_started",
+        "21": "not_started",
+        "23": "not_started",
+        "27": "not_started",
+        "29": "not_started",
+        "33": "not_started",
+        "35": "not_started"
+      },
+      "progress": {
+        "accepted_time_s": 177.5,
+        "accepted_vds_V": 7.75,
+        "accepted_vgs_V": 15.0,
+        "drain_scan_fraction": 0.775,
+        "last_iteration": {
+          "error": 0.105,
+          "iteration": 18,
+          "rhs": 5.31
+        },
+        "log_bytes": 581443,
+        "log_mtime_epoch": 1792674120.5118315,
+        "pending_target": 180.0,
+        "phase": "drain_ramp",
+        "step_s": 2.5,
+        "target_time_s": 180.0,
+        "unread_bytes": 0
+      },
+      "progress_mapping": "118u template: gate 0..100 s, drain 100..200 s; not wall time or ETA",
+      "resources": [
+        {
+          "cpu_percent_one_core_100": 0.7654590147700022,
+          "name": "gsub0",
+          "pid": 74083,
+          "rss_bytes": 211664896,
+          "start_ticks": 574127537
+        },
+        {
+          "cpu_percent_one_core_100": 0.0,
+          "name": "gjob",
+          "pid": 74288,
+          "rss_bytes": 26304512,
+          "start_ticks": 574127852
+        },
+        {
+          "cpu_percent_one_core_100": 689.1793599068351,
+          "name": "sdevice",
+          "pid": 74375,
+          "rss_bytes": 1836044288,
+          "start_ticks": 574127933
+        }
+      ],
+      "run_id": "sdevice1_20261022T113935Z_d2b4223f",
+      "schema_version": 1,
+      "server_epoch": 1792674121.328182,
+      "server_utc": "2026-10-22T13:02:01.368926Z",
+      "stale": false,
+      "state": "running",
+      "worker_alive": true
+    },
+    "nodes": {
+      "15": {
+        "log_bytes": 582145,
+        "log_mtime": 1792674165.1458342,
+        "parameters": {
+          "int": 0,
+          "rho_c_drain": "1e-4"
+        },
+        "solver_version": "W-2024.09-SP1",
+        "sta": "     |1792668252|running|localhost.localdomain|sdevice\nlocal: 74288\n"
+      },
+      "16": {
+        "parameters": {
+          "int": 5,
+          "rho_c_drain": "1e-4"
+        },
+        "sta": ""
+      },
+      "21": {
+        "parameters": {
+          "int": 0,
+          "rho_c_drain": "1e-3"
+        },
+        "sta": ""
+      },
+      "23": {
+        "parameters": {
+          "int": 5,
+          "rho_c_drain": "1e-3"
+        },
+        "sta": ""
+      },
+      "27": {
+        "parameters": {
+          "int": 0,
+          "rho_c_drain": "1e-2"
+        },
+        "sta": ""
+      },
+      "29": {
+        "parameters": {
+          "int": 5,
+          "rho_c_drain": "1e-2"
+        },
+        "sta": ""
+      },
+      "33": {
+        "parameters": {
+          "int": 0,
+          "rho_c_drain": "1e-1"
+        },
+        "sta": ""
+      },
+      "35": {
+        "parameters": {
+          "int": 5,
+          "rho_c_drain": "1e-1"
+        },
+        "sta": ""
+      }
+    },
+    "observed_status": "running",
+    "ok": true,
+    "project": "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project",
+    "root": "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f",
+    "run_id": "sdevice1_20261022T113935Z_d2b4223f",
+    "server_utc": "2026-10-22T13:02:48.202423Z",
+    "simulation_success": false,
+    "state": {
+      "current_node": 15,
+      "nodes": {
+        "15": {
+          "command": [
+            "/home/synopsys/sentaurus/W-2024.09-SP1/bin/gsub",
+            "-verbose",
+            "-n",
+            "15",
+            "-q",
+            "local:default",
+            "-max",
+            "1",
+            "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project"
+          ],
+          "started_epoch": 1792668248.294945,
+          "started_utc": "2026-10-22T11:24:08.298410Z",
+          "status": "running"
+        },
+        "16": {
+          "status": "not_started"
+        },
+        "21": {
+          "status": "not_started"
+        },
+        "23": {
+          "status": "not_started"
+        },
+        "27": {
+          "status": "not_started"
+        },
+        "29": {
+          "status": "not_started"
+        },
+        "33": {
+          "status": "not_started"
+        },
+        "35": {
+          "status": "not_started"
+        }
+      },
+      "run_id": "sdevice1_20261022T113935Z_d2b4223f",
+      "status": "running",
+      "submitted_utc": "2026-10-22T11:24:08.226662Z",
+      "updated_utc": "2026-10-22T11:24:08.298428Z",
+      "worker_started_utc": "2026-10-22T11:24:08.249591Z"
+    },
+    "worker_alive": true
+  },
+  "metrics": [],
+  "curve_comparisons": [],
+  "spatial_selection": [
+    {
+      "node": 15,
+      "reason": "baseline",
+      "available_curve": false
+    },
+    {
+      "node": 16,
+      "reason": "baseline",
+      "available_curve": false
+    }
+  ],
+  "tdr_manifest": {
+    "project/NOPPL.tdr": {
+      "bytes": 4806345,
+      "mtime": 1792634838.830514,
+      "node": null,
+      "remote_path": "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project/NOPPL.tdr",
+      "role": "input_or_metadata",
+      "sha256": "96fa8c0f70bc225ae1ffdd7a77c6ec2db7e56246aae34166171b085d70f4798a"
+    },
+    "project/PPL.tdr": {
+      "bytes": 4920545,
+      "mtime": 1792635931.860579,
+      "node": null,
+      "remote_path": "<REMOTE_WORKSPACE>/4E17SPICE_1.18u_sdevice1_20261022T113935Z_d2b4223f/project/PPL.tdr",
+      "role": "input_or_metadata",
+      "sha256": "fb73995b629bd507652353af646c134fc8b60fd01dfdceb7e1300df11d357cc3"
+    }
+  },
+  "errors": [],
+  "data_export_ok": true,
+  "plot_ok": true,
+  "spatial_status": "no_eligible_TDR_yet",
+  "figures": [],
+  "report_complete": false,
+  "spatial": {
+    "plots": [],
+    "reason": "所选节点尚无可验证的稳定 TDR；未调用 SVisual。"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "public_copy": true,
+  "original_evidence_retained_locally": true,
+  "files": {
+    "analysis.json": {
+      "sha256": "a1d776ab7d49670c0fc0b3e63a330e7a0a6332deab3d517e2b60d14e827fcef9",
+      "bytes": 7583
+    },
+    "metrics.csv": {
+      "sha256": "3760ace99bf86202faeb8f8d447fbf3ba5557b9600b03e8e1c0f21b1db3da195",
+      "bytes": 92
+    },
+    "report.html": {
+      "sha256": "2ba8c313ffcac498348aae9fe1022c189d7006d61ba838fc013b81ede7e97c5a",
+      "bytes": 4004
+    },
+    "REPORT.md": {
+      "sha256": "3c8fd37d04ac3b2dae715ecb14fb0b00c53f586ed8f44adbabe6530d85285eb4",
+      "bytes": 2809
+    }
+  }
+}

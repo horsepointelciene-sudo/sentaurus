@@ -1,0 +1,57 @@
+# Allowlist for the public workflow repository; unrelated and raw research material stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/AGENTS.md
+!/WORKFLOW_START_HERE.md
+!/tasks/
+!/reports/
+!/project_notes/
+/project_notes/*
+!/project_notes/server_tools/
+/project_notes/server_tools/*
+!/project_notes/server_tools/tcad_workflow.py
+!/project_notes/server_tools/tcad_batch_remote.py
+!/project_notes/server_tools/tcad_monitor_remote.py
+!/project_notes/server_tools/tcad_reporting.py
+!/project_notes/server_tools/tcad_visualization.py
+!/project_notes/server_tools/test_tcad_pipeline.py
+!/project_notes/server_tools/test_tcad_workflow.py
+!/project_notes/server_tools/tcad_publish.py
+!/project_notes/server_tools/WORKFLOW_V2.md
+!/project_notes/server_tools/requirements-workflow.txt
+
+# Never publish secrets, original raw output, or installed dependencies.
+**/.env
+**/.env.*
+**/.ssh/
+**/*.pem
+**/*.key
+**/id_ed25519*
+**/id_rsa*
+**/*credentials*
+**/*账号*
+**/*密码*
+**/*.tdr
+**/*.plt
+**/*.sav
+**/*.log
+**/raw/
+**/__pycache__/
+**/*.pyc
+
+# Only sanitized reports are published to the user-selected public origin.
+/reports/*
+!/reports/public/
+
+!/README.md
+!/projects/
+/projects/*
+!/projects/4E17SPICE_1.18u/
+
+# Only the reviewed input copies are included from this project.
+/projects/4E17SPICE_1.18u/*
+!/projects/4E17SPICE_1.18u/sdevice_des.cmd
+!/projects/4E17SPICE_1.18u/sdevice1_des.cmd
+!/projects/4E17SPICE_1.18u/gtree.dat
+!/projects/4E17SPICE_1.18u/INPUTS.json

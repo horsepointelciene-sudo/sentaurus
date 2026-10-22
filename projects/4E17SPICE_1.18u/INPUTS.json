@@ -1,0 +1,25 @@
+{
+  "files": {
+    "sdevice_des.cmd": {
+      "sha256": "aca64f7fba6736ec179cff83421823c2de42661eb9d5ea3350cd3e9d535cc862",
+      "source": "verified batch input collection",
+      "historical_run_id": "sdevice1_20261022T113935Z_d2b4223f"
+    },
+    "sdevice1_des.cmd": {
+      "sha256": "b17d8a649761b7807a3c6071db5fa43ac35da023658ab537bb3d7d9484beba74",
+      "source": "verified batch input collection",
+      "historical_run_id": "sdevice1_20261022T113935Z_d2b4223f"
+    },
+    "gtree.dat": {
+      "sha256": "bd29dd9dfadb4ea12e3655610ef7ac5a16211917443bf420a67a096bc9891326",
+      "source": "verified batch input collection",
+      "historical_run_id": "sdevice1_20261022T113935Z_d2b4223f"
+    }
+  },
+  "not_distributed": [
+    "PPL.tdr",
+    "NOPPL.tdr",
+    "SiC.par"
+  ],
+  "note": "This is a verified historical input copy, not a newly executed project."
+}
